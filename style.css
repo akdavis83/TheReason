@@ -1,0 +1,23 @@
+/*
+global
+*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #111;
+    overflow: hidden;
+}
+
+canvas {
+    touch-action: none;
+}
